@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:layout_marginTop="50dp" />
+
+        <ImageView
+            android:layout_width="39dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/backIV"
+            android:background="@drawable/baseline_keyboard_backspace_24"></ImageView>
+
+        <com.andremion.counterfab.CounterFab
+            android:id="@+id/itemFabCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cart"
+            android:transitionName="cart"
+            app:backgroundTint="@color/purple"
+            app:badgeBackgroundColor="@color/white"
+            app:badgePosition="RightTop"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            app:badgeTextColor="@color/purple"/>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/phone_NAME"
+                android:layout_width="279dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text=""
+                android:textColor="?android:textColorPrimary"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/phone_Price"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text=""
+                android:textColor="?android:textColorPrimary"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/favoriteIV"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/baseline_favorite_border_24"></ImageButton>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    <TextView
+        android:id="@+id/tvDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_bhai_2"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="17dp"
+        android:text="Your long text goes here. It will be scrollable if it exceeds the ScrollView's height."
+        android:scrollbars="vertical"/>
+</ScrollView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnMinus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            app:tint="@color/purple"
+            android:backgroundTint="@color/purple"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless"
+            android:theme="@android:style/ThemeOverlay.Material.Light"
+            android:background="@drawable/minus" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp">
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center"
+                android:padding="4dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="@color/purple"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+
+        <ImageButton
+            android:id="@+id/btnPlus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/purple"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@android:style/ThemeOverlay.Material.Light"
+            android:layout_gravity="center"
+            android:background="@drawable/plus"
+            app:tint="@color/purple" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/addToCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to cart"
+        android:drawableEnd="@drawable/baseline_add_shopping_cart_24"/>
+</LinearLayout>

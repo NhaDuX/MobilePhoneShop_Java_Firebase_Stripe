@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="#F5F5F5"> <!-- Pastel color background -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Banner Slider (You can replace this with your banner slider component) -->
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                 /> <!-- Replace with your banner image -->
+
+            <!-- Category Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recommend"
+                android:textSize="18sp"
+                android:textColor="#333333" /> <!-- Text color -->
+
+            <!-- Category RecyclerView (Replace with your category RecyclerView) -->
+
+
+            <!-- Display Phones Section -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/categoryRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:scrollbars="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Arrivals"
+                android:textSize="18sp"
+                android:textColor="#333333" /> <!-- Text color -->
+
+            <!-- Vertical RecyclerView for Display Phones (Replace with your RecyclerView) -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/PhonesRecyclerView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+
+                ></TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <!--    <com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/darkmode"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="46dp"-->
+    <!--        android:layout_gravity="bottom|end"-->
+    <!--        android:layout_marginBottom="50dp"-->
+    <!--        android:layout_marginRight="20dp"-->
+    <!--        app:fab_colorNormal="@color/babyblue"></com.getbase.floatingactionbutton.FloatingActionButton>-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        android:background="@drawable/bottom_background"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        android:layout_gravity="bottom"
+        app:menu="@menu/bottom_menu" />
+</FrameLayout>

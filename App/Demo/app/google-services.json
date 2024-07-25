@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "815863163315",
+    "firebase_url": "https://qlyoga-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "qlyoga",
+    "storage_bucket": "qlyoga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815863163315:android:2411eec5a31f6752bcc3c6",
+        "android_client_info": {
+          "package_name": "com.example.doanandroidlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815863163315-6g5pkudjje6bat00d0iquf0q18unbshc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrZKyKgskGSK8HIKlKkmMnnUJgCGAnZbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815863163315-6g5pkudjje6bat00d0iquf0q18unbshc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815863163315:android:d5a59e0e2f75d1e6bcc3c6",
+        "android_client_info": {
+          "package_name": "edu.huflit.demo_yoga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815863163315-6g5pkudjje6bat00d0iquf0q18unbshc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrZKyKgskGSK8HIKlKkmMnnUJgCGAnZbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815863163315-6g5pkudjje6bat00d0iquf0q18unbshc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneListActivity"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backIV"
+            android:layout_width="39dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/baseline_keyboard_backspace_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="81dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="137dp"
+            android:fontFamily="@font/baloo_bhai"
+            android:text="VIDEOS LIST"
+            android:textColor="@color/rosewater"
+            android:textSize="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/backIV"
+            app:layout_constraintTop_toTopOf="parent"></TextView>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RViewVList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+           <com.getbase.floatingactionbutton.FloatingActionsMenu
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_gravity="end|bottom"
+               android:layout_margin="20dp"
+               android:id="@+id/menuFloatingIcon"
+               app:fab_addButtonColorNormal="@color/mint"
+               app:fab_labelStyle="@style/floatingbutton"
+               app:fab_addButtonColorPressed="@color/bottommenu_color"
+               >
+               <com.getbase.floatingactionbutton.FloatingActionButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   app:fab_colorNormal="@color/lilac"
+                   android:src="@drawable/nosort"
+                   app:fab_title="Normal"
+                   android:id="@+id/noSort"></com.getbase.floatingactionbutton.FloatingActionButton>
+               <com.getbase.floatingactionbutton.FloatingActionButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/sortaz"
+                   android:id="@+id/sortaz"
+                   app:fab_title="Sort A-Z"
+                   app:fab_colorNormal="@color/babyblue"></com.getbase.floatingactionbutton.FloatingActionButton>
+               <com.getbase.floatingactionbutton.FloatingActionButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/sortza"
+                   app:fab_title="Sort Z-A"
+                   android:id="@+id/sortza"
+                   app:fab_colorNormal="@color/creamyellow"></com.getbase.floatingactionbutton.FloatingActionButton>
+           </com.getbase.floatingactionbutton.FloatingActionsMenu>
+       </FrameLayout>
+</LinearLayout>

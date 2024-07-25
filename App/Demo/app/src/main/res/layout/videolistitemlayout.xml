@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/item_video_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:text="Name"
+                android:textSize="25dp"></TextView>
+
+            <TextView
+                android:id="@+id/tvDe1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/baloo_bhai_2"
+                android:text="decript 1"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/tvDe2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/baloo_bhai_2"
+                android:text="decript 2"></TextView>
+
+            <TextView
+                android:id="@+id/videoID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"></TextView>
+        </LinearLayout>
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:cardCornerRadius="20dp"-->
+<!--            android:layout_gravity="right">-->
+<!--            -->
+<!--        </androidx.cardview.widget.CardView>
+-->
+        <ImageView
+            android:id="@+id/imgItemView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"></ImageView>
+
+    </LinearLayout>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#ffaaa9a9">
+    </TableRow>
+</LinearLayout>

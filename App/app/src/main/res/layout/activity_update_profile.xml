@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundchinh"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    tools:context=".Activity.UpdateProfileActivity">
+
+    <ImageView
+        android:id="@+id/ivlogo"
+        android:layout_width="222dp"
+        android:layout_height="221dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/doan"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/TenTrungTam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivlogo"
+        android:layout_alignTop="@+id/ivlogo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="229dp"
+        android:gravity="center"
+        android:text="UPDATE INFO"
+        android:textStyle="bold"
+        android:textColor="#555555"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/Email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TenTrungTam"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/TenDayDu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:drawableTint="@color/black"
+        android:drawableStart="@drawable/baseline_drive_file_rename_outline_24"
+        android:ems="10"
+        android:hint="Full name"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+    <EditText
+        android:id="@+id/SoDienThoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TenDayDu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:autoText="false"
+        android:drawableStart="@drawable/baseline_tty_24"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number|phone"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+
+
+
+    <EditText
+        android:id="@+id/DiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SoDienThoai"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:drawableStart="@drawable/baseline_location_on_24"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:backgroundTint="@color/black"
+        android:textColorHint="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_below="@id/DiaChi"
+        android:layout_marginHorizontal="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="237dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#AFAEAF"
+            android:backgroundTintMode="src_in"
+            android:text="Update"
+            android:textColor="#000000"
+            android:textColorHighlight="#854C4C" />
+
+    </LinearLayout>
+</RelativeLayout>

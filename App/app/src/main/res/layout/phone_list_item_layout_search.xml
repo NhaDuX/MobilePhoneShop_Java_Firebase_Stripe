@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Search_list_layout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="20dp">
+
+                <ImageView
+                    android:id="@+id/imgItemView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:fontFamily="@font/baloo_bhai"
+                android:gravity="center"
+                android:text="Name"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:id="@+id/tvDe1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:fontFamily="@font/baloo_bhai_2"
+                android:gravity="center"
+                android:text="decript 1"
+                android:textSize="13dp"
+                tools:ignore="TextSizeCheck"></TextView>
+
+            <TextView
+                android:id="@+id/videoID1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"></TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

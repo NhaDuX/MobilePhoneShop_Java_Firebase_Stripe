@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "265240758101",
+    "firebase_url": "https://shopdt-5c0d7-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "shopdt-5c0d7",
+    "storage_bucket": "shopdt-5c0d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265240758101:android:2f0bc0936b3f15b868d1dc",
+        "android_client_info": {
+          "package_name": "com.android.shopdt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDaybdYL1yr7J_LwatPMAGfB2uY0Xm_6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265240758101:android:a334aa2a49bdf6ca68d1dc",
+        "android_client_info": {
+          "package_name": "edu.huflit.shopDT"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDaybdYL1yr7J_LwatPMAGfB2uY0Xm_6Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

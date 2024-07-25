@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Search_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvName1"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+
+                android:fontFamily="@font/baloo_bhai"
+                android:text="Name"
+                android:textSize="23dp"></TextView>
+
+            <TextView
+                android:id="@+id/tvDe12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/baloo_bhai_2"
+                android:text="decript 1"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/tvDe22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="@font/baloo_bhai_2"
+                android:text="decript 2"></TextView>
+
+            <TextView
+                android:id="@+id/videoID1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"></TextView>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="89dp"
+            android:layout_height="71dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/imgItemView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ImageView>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#ffaaa9a9"></TableRow>
+
+</LinearLayout>

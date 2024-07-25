@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MenuFragment.HomeFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="207dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="46dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="HAVE A"
+                    android:textSize="28dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="15dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:paddingTop="-10dp"
+                    android:text="GREAT DAY!"
+                    android:textSize="28dp"></TextView>
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ScrollView>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:fontFamily="@font/barlow_semibold"
+                android:text="Recommend"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+                android:textSize="20dp"></TextView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="363dp"
+                android:layout_height="160dp"
+                android:backgroundTint="@color/navy"
+                app:cardCornerRadius="20dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/CVBasics">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textViewA1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="34dp"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/baloo_bhai"
+                        android:text="Basics"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+                    <TextView
+                        android:id="@+id/textViewA2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="34dp"
+                        android:fontFamily="@font/baloo_bhai_2"
+                        android:text="Start your deepen"
+                        android:textColor="@color/white"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewA1"></TextView>
+
+                    <TextView
+                        android:id="@+id/textViewA3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="34dp"
+                        android:layout_marginTop="-1dp"
+                        android:fontFamily="@font/baloo_bhai_2"
+                        android:text="you practice"
+                        android:textColor="@color/white"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewA2"></TextView>
+
+                    <TextView
+                        android:id="@+id/textViewA4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="@font/baloo_bhai_2"
+                        android:text="10 Steps | 10-15 min"
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewA3"
+                        tools:ignore="TextSizeCheck"></TextView>
+
+                    <ImageView
+                        android:id="@+id/imageViewA"
+                        android:layout_width="139dp"
+                        android:layout_height="135dp"
+
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="26dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="363dp"
+                android:layout_height="160dp"
+                android:backgroundTint="@color/mint"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/CVExpert">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="361dp"
+                    android:layout_height="158dp">
+
+                    <TextView
+                        android:id="@+id/textViewB1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="34dp"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/baloo_bhai"
+                        android:text="Expert"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+                    <TextView
+                        android:id="@+id/textViewB2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="34dp"
+                        android:fontFamily="@font/baloo_bhai_2"
+                        android:text="Improve your strength"
+                        android:textColor="@color/white"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewB1"></TextView>
+
+                    <TextView
+                        android:id="@+id/textViewB3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="34dp"
+                        android:layout_marginTop="-1dp"
+                        android:fontFamily="@font/baloo_bhai_2"
+                        android:text="and health"
+                        android:textColor="@color/white"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewB2"></TextView>
+
+                    <TextView
+                        android:id="@+id/textViewB4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:layout_marginTop="17dp"
+                        android:fontFamily="@font/baloo_bhai_2"
+                        android:text="20 Steps | 20-25 min"
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textViewB3"
+                        tools:ignore="TextSizeCheck"></TextView>
+
+                    <ImageView
+                        android:id="@+id/imageViewB"
+                        android:layout_width="124dp"
+                        android:layout_height="147dp"
+                        android:layout_marginEnd="41dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="39dp"
+            android:fontFamily="@font/barlow_semibold"
+            android:text="New"
+            android:layout_marginLeft="15dp"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"></TextView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="363dp"
+            android:layout_height="160dp"
+            android:backgroundTint="@color/purple"
+            app:cardCornerRadius="20dp"
+            android:layout_marginLeft="15dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textViewC1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Basics"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+
+                <TextView
+                    android:id="@+id/textViewC2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="34dp"
+                    android:fontFamily="@font/baloo_bhai_2"
+                    android:text="Start your deepen"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewC1"></TextView>
+
+                <TextView
+                    android:id="@+id/textViewC3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginTop="-1dp"
+                    android:fontFamily="@font/baloo_bhai_2"
+                    android:text="you practice"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewC2"></TextView>
+
+                <TextView
+                    android:id="@+id/textViewC4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="17dp"
+                    android:fontFamily="@font/baloo_bhai_2"
+                    android:text="10 Steps | 10-15 min"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewC3"
+                    tools:ignore="TextSizeCheck"></TextView>
+
+                <ImageView
+                    android:id="@+id/imageViewC"
+                    android:layout_width="116dp"
+                    android:layout_height="97dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="35dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="363dp"
+            android:layout_height="160dp"
+            android:backgroundTint="@color/rosewater"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TextView
+                    android:id="@+id/textViewD1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/baloo_bhai"
+                    android:text="Expert"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></TextView>
+
+                <TextView
+                    android:id="@+id/textViewD2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="34dp"
+                    android:fontFamily="@font/baloo_bhai_2"
+                    android:text="Improve your strength"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewD1"></TextView>
+
+                <TextView
+                    android:id="@+id/textViewD3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="34dp"
+                    android:layout_marginTop="-1dp"
+                    android:fontFamily="@font/baloo_bhai_2"
+                    android:text="and health"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewD2"></TextView>
+
+                <TextView
+                    android:id="@+id/textViewD4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="17dp"
+                    android:fontFamily="@font/baloo_bhai_2"
+                    android:text="20 Steps | 20-25 min"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewD3"
+                    tools:ignore="TextSizeCheck"></TextView>
+
+                <ImageView
+                    android:id="@+id/imageViewD"
+                    android:layout_width="132dp"
+                    android:layout_height="163dp"
+                    android:layout_marginEnd="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

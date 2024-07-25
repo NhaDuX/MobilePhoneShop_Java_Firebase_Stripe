@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundchinh"
+    tools:context=".Activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/ivlogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/doan"/>
+
+    <EditText
+        android:id="@+id/Email1"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivlogo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="287dp"
+        android:layout_marginEnd="54dp"
+        android:backgroundTint="@color/black"
+        android:hint="Email"
+        android:text="andzvl0@gmail.com"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/Password1"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Email1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="53dp"
+        android:backgroundTint="@color/black"
+        android:hint="Mật khẩu"
+        android:text="0123456"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btDangNhap1"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="52dp"
+        android:backgroundTint="#AFAEAF"
+        android:text="Đăng nhập"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/btnDangKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Chưa có tài khoản ? . ĐĂNG KÝ "
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/btDangNhap1"/>
+</RelativeLayout>

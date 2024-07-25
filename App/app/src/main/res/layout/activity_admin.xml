@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AdminActivity">
+
+    <Button
+        android:id="@+id/qlTaiKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lí Tài Khoản"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/qlSanPham"
+        app:layout_constraintTop_toBottomOf="@+id/qlTaiKhoan"
+        android:text="Quản lí sản phẩm"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/qlDonHang"
+        app:layout_constraintTop_toBottomOf="@+id/qlSanPham"
+        android:text="Quản lí đơn hàng"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        app:layout_constraintTop_toBottomOf="@+id/qlDonHang"
+        android:text="Dang Xuat"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
