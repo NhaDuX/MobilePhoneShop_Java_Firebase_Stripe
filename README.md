@@ -9,7 +9,9 @@
    |
 ## Ứng Dụng Bán Điện Thoại Android
 
-![Ảnh Home](https://firebasestorage.googleapis.com/v0/b/shopdt-5c0d7.appspot.com/o/image.README%2Fhome.png?alt=media&token=c96c1ef9-daa6-469f-b8ea-65d959b6a6c7&_gl=1*1b5oobc*_ga*MTY3Mjg3NDM3OC4xNjk3MzEwMTI2*_ga_CW55HF8NVT*MTY5ODgzMTIxNy4zMS4xLjE2OTg4MzEzNzYuNjAuMC4w)
+![Ảnh Home](https://media.discordapp.net/attachments/728486003051987035/1266061041637261323/image.png?ex=66a3c6ba&is=66a2753a&hm=42e8b3b30cbd9ad72579dcf5a64e6f09c2af8ce9fb3a2e1cf11e90d19be45dff&=&format=webp&quality=lossless&width=161&height=350)
+![Cấu trúc Firebase Realtime](https://media.discordapp.net/attachments/728486003051987035/1266066961503355000/image.png?ex=66a3cc3e&is=66a27abe&hm=f36cdf466cddaa85fb490b7c7c4d5ba31b8876b370db1aea76676743c9868ee7&=&format=webp&quality=lossless)
+![Cấu trúc file dự án](https://media.discordapp.net/attachments/728486003051987035/1266067002837962803/image.png?ex=66a3cc47&is=66a27ac7&hm=1366d96397caa1c69cc4b19cc4e7ef2f0e6d5f84072716590334f90c5cd518cc&=&format=webp&quality=lossless)
 
 
 ## Mô tả
@@ -35,6 +37,7 @@
 - Thêm sản phẩm vào giỏ hàng.
 - Quản lý giỏ hàng và thực hiện thanh toán.
 - Đăng nhập và đăng ký tài khoản người dùng.
+- Có phân quyền User bằng Admin, có Màn hình riêng cho Admin quản lý CRUD Sản Phẩm, Danh Mục, Xác nhận trạng thái đơn hàng, User,...
 
 ## Hướng Dẫn Cài Đặt
 
