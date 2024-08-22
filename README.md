@@ -9,13 +9,13 @@
    
 ## Ứng Dụng Bán Điện Thoại Android
 **Trang chủ**  
-![Ảnh Home](https://drive.google.com/file/d/13TW0nCFMj1bSHD-kv5pOmZ_yhZsCRIii/view?usp=drivesdk)  
+![Ảnh Home](https://firebasestorage.googleapis.com/v0/b/shopdt-5c0d7.appspot.com/o/images_4_git%2Fhome_page.png?alt=media&token=aeb10652-25fc-4994-9b58-1cb380d27838)  
 **Cấu trúc database**  
-![Cấu trúc Firebase Realtime](https://drive.google.com/file/d/1FjcTjkq3ZwpdiosGmj1GWxRGnuVNjL1G/view?usp=drivesdk)  
+![Cấu trúc Firebase Realtime](https://firebasestorage.googleapis.com/v0/b/shopdt-5c0d7.appspot.com/o/images_4_git%2Ffirebase%20struccture.png?alt=media&token=987eeecc-1f5f-4289-ac86-886e9037e3e6)  
 
 
 **Cấu trúc hệ thống file dự án**  
-![Cấu trúc file dự án](https://drive.google.com/file/d/122X-l6XmsPIl9oOCepDowuR5Us1rgXsY/view?usp=drivesdk)  
+![Cấu trúc file dự án](https://firebasestorage.googleapis.com/v0/b/shopdt-5c0d7.appspot.com/o/images_4_git%2Fproject%20folder%20tree.png?alt=media&token=9437c378-fc3e-48da-9468-87620e73ac0b)  
 
 ## Mô tả
 
